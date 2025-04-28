@@ -14,7 +14,7 @@ body {
 img{
   height: 10vh;
 }
-.search-container {
+.barra_pesquisa {
   display: flex;
   align-items: center;
   border: 1px solid #dfe1e5;
@@ -26,14 +26,14 @@ img{
   margin: 50px auto;
 }
 
-.search-container input[type="text"] {
+.barra_pesquisa input[type="text"] {
   flex: 1;
   border: none;
   outline: none;
   font-size: 16px;
 }
 
-#crazyButton {  
+#botao {  
   height: 40px;
   width: 135px;
   background-color: #f8f9fa;

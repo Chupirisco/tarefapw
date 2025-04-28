@@ -1,4 +1,4 @@
-const button = document.getElementById('crazyButton');
+const button = document.getElementById('botao');
 
 button.addEventListener('mouseover', (event) => {  
   if (event.ctrlKey) {  
@@ -32,5 +32,5 @@ button.addEventListener('mouseover', (event) => {
 
 button.addEventListener('click', ()=>{
   // após o click apare isso
- alert('faz alguma coisa');
+ alert('depois adicionar alguma coisa');
 })
