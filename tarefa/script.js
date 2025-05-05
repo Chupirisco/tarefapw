@@ -1,4 +1,4 @@
-const button = document.getElementById('crazyButton');
+const button = document.getElementById('botao');
 
 button.addEventListener('mouseover', (event) => {
   if (event.ctrlKey) return;
@@ -20,11 +20,11 @@ button.addEventListener('mouseover', (event) => {
   button.style.transform = 'none';
 });
 
-document.getElementById("crazyButton").addEventListener("click", () => {
+document.getElementById("botao").addEventListener("click", () => {
   alert("Função de pesquisa ainda não implementada.");
 });
 
-document.getElementById("errorButton").addEventListener("click", () => {
+document.getElementById("botaoerro").addEventListener("click", () => {
   window.location.href = "erro.html";
 });
 
