@@ -1,33 +1,48 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Gugou</title>
- <link rel="stylesheet" href="style.css">
- <script src="script.js" defer></script>
- <link rel="icon" href="assets/icone.png" type="image/x-icon">
-
-
- 
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+  <link rel="icon" href="assets/icone.png" type="image/x-icon">
 </head>
+
 <body>
-<img src="assets/imagem.png" alt="logo">
-  <div class="barra_pesquisa">
+  <img src="assets/imagem.png" alt="logo">
+  <div class="search-container">
     <input type="text" placeholder="Pesquise no Gugou">
   </div>
+  <div id="content">
+    <button id="crazyButton">
+      <iconify-icon icon="mdi:magnify"></iconify-icon>
+      Pesquisar
+    </button>
+    <button id="errorButton">Saiba mais</button>
+  </div>
 
-  <button id="botao">    
-    Pesquisar
-  </button>
-
-  
   <footer>
-    <div class="div1"><h4>Brasil</h4></div>
+    <div class="div1">
+      <h4>Brasil</h4>
+    </div>
     <div class="div2">
-        <div class="divs3"><span>Publicidade</span><span>Negócios</span><span>Sobre</span><span>Como Funciona a Pesquisa</span></div>
-        <div class="divs3"><span>Privacidade</span><span>Termos</span><span>Configurações</span></div>
+      <div class="divs3">
+        <span>Publicidade</span>
+        <span>Negócios</span>
+        <span>Sobre</span>
+        <span>Como Funciona a Pesquisa</span>
+      </div>
+      <div class="divs3">
+        <span>Privacidade</span>
+        <span>Termos</span>
+        <span>Configurações</span>
+      </div>
     </div>
   </footer>
+
 </body>
+
 </html>

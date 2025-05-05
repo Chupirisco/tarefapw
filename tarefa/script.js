@@ -1,36 +1,30 @@
-const button = document.getElementById('botao');
+const button = document.getElementById('crazyButton');
 
-button.addEventListener('mouseover', (event) => {  
-  if (event.ctrlKey) {  
-    return;
-  }
+button.addEventListener('mouseover', (event) => {
+  if (event.ctrlKey) return;
 
-  //pega os tamanhos da tela
   const windowWidth = window.innerWidth;
   const windowHeight = window.innerHeight;
-
   const buttonWidth = button.offsetWidth;
   const buttonHeight = button.offsetHeight;
+  const padding = 10;
 
-  //espaço para nao colar na borda
-  const padding = 10; 
-
-  // calculo para nao fugir da tela
   const maxLeft = windowWidth - buttonWidth - padding;
   const maxTop = windowHeight - buttonHeight - padding;
 
-  const randomLeft = Math.random() * maxLeft + padding/2;
-  const randomTop = Math.random() * maxTop + padding/2;
-  
-  //adiciona a posição ao style
+  const randomLeft = Math.random() * maxLeft + padding / 2;
+  const randomTop = Math.random() * maxTop + padding / 2;
+
   button.style.left = `${randomLeft}px`;
   button.style.top = `${randomTop}px`;
-
-  // remove a posição inicial
   button.style.transform = 'none';
 });
 
-button.addEventListener('click', ()=>{
-  // após o click apare isso
- alert('depois adicionar alguma coisa');
-})
+document.getElementById("crazyButton").addEventListener("click", () => {
+  alert("Função de pesquisa ainda não implementada.");
+});
+
+document.getElementById("errorButton").addEventListener("click", () => {
+  window.location.href = "erro.html";
+});
+
