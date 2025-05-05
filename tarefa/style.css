@@ -101,7 +101,7 @@ button:hover, #botao:hover, #botaoerro:hover {
   top: 70vh;
 }
 
-#errorOverlay {
+#paginaerro {
   display: none;
   position: fixed;
   top: 0; left: 0;
