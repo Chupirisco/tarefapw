@@ -50,7 +50,7 @@ span {
   padding-inline: 10px;
 }
 
-.search-container {
+.busca {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -63,14 +63,14 @@ span {
   margin: 50px auto;
 }
 
-.search-container input[type="text"] {
+.busca input[type="text"] {
   flex: 1;
   border: none;
   outline: none;
   font-size: 16px;
 }
 
-button, #crazyButton, #errorButton {
+button, #botao, #botaoerro {
   padding: 10px 20px;
   font-size: 14px;
   cursor: pointer;
@@ -80,11 +80,11 @@ button, #crazyButton, #errorButton {
   transition: 0.2s;
 }
 
-button:hover, #crazyButton:hover, #errorButton:hover {
+button:hover, #botao:hover, #botaoerro:hover {
   background-color: #e8eaed;
 }
 
-#crazyButton, #errorButton {
+#botao, #botaoerro {
   position: absolute;
   height: 40px;
   width: 135px;
@@ -93,11 +93,11 @@ button:hover, #crazyButton:hover, #errorButton:hover {
   z-index: 2;
 }
 
-#crazyButton {
+#botao {
   top: 63vh;
 }
 
-#errorButton {
+#botaoerro {
   top: 70vh;
 }
 
